@@ -4,7 +4,7 @@
 #include <raylib.h>
 
 class Ball {
-  int radius = 10;
+  int radius;
   Vector2 position;
   Vector2 speed;
 
