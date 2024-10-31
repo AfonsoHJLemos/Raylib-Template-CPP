@@ -21,8 +21,8 @@ int main() {
     BeginDrawing();
 
     ClearBackground(BLACK);
-    DrawFPS(10, 10);
     ball.Draw();
+    DrawFPS(10, 10);
 
     EndDrawing();
   }
